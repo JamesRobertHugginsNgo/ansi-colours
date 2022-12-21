@@ -4,6 +4,12 @@ Version 1.0.0
 
 Lists ANSI escape code for displaying colours on console log.
 
+## Installation
+
+```
+npm install git+https://github.com/JamesRobertHugginsNgo/ansi-colours.git#1.0.0
+```
+
 ## Constants
 
 - RESET
