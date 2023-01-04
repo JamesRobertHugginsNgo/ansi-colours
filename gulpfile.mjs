@@ -17,7 +17,6 @@ function cleanUp() {
 
 function buildCjs() {
 	return Gulp.src('./src/**/*.mjs')
-		// .pipe(gulpPreprocess({ context: { addPrefix: () => 'module.exports.' }, extension: 'js' }))
 		.pipe(gulpBabel({ plugins: ['@babel/plugin-transform-modules-commonjs'] }))
 		.pipe(gulpRename((path) => path.extname = '.cjs'))
 		.pipe(Gulp.dest('./dist/'));
