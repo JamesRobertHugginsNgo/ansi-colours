@@ -1,4 +1,4 @@
-const ANSI_COLOURS = require('../index');
+import * as ANSI_COLOURS from '../dist/ansi-colours.mjs';
 
 console.log(`${ANSI_COLOURS.BLACK}ANSI_COLOURS.BLACK${ANSI_COLOURS.RESET}`);
 console.log(`${ANSI_COLOURS.RED}ANSI_COLOURS.RED${ANSI_COLOURS.RESET}`);
