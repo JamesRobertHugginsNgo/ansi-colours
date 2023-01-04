@@ -50,6 +50,12 @@ Name | Description
 `BG_B_CYAN` | Bright cyan background
 `BG_B_WHITE` | Bright white background
 
+``` JavaScript
+import * as AnsiColours from 'ansi-colours';
+
+console.log(`${AnsiColours.MAGENTA}Sample Text${AnsiColours.RESET}`);
+```
+
 ## Reference
 
 https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
