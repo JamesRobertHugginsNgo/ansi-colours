@@ -1,6 +1,6 @@
 # ansi-colours
 
-_Version 1.0.0_
+_Version 2.0.0_
 
 NodeJS list of ANSI escape code constants for displaying colours on console log.
 
